@@ -1,0 +1,27 @@
+.CardsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--cl-space-6);
+}
+
+.Card {
+  min-height: 290px;
+  width: 100%;
+}
+
+.TableCard {
+  grid-column: span 2;
+  grid-row: auto;
+  min-height: 290px;
+}
+
+@media (max-width: 1180px) {
+  .CardsContainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .TableCard {
+    grid-column: span 1;
+  }
+}

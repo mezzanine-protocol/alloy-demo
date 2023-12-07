@@ -1,0 +1,50 @@
+{
+  "sdk_keys": [
+    {
+      "key": "01234567-89ab-cdef-0123-456789abcdef"
+    }
+  ],
+  "journeys": [
+    {
+      "journey_token": "J-0123456789abcdefghij",
+      "journey_type": "us_consumer_onboarding",
+      "journey_name": "US Consumer Onboarding Journey"
+    },
+    {
+      "journey_token": "J-0123456789abcdefghij",
+      "journey_type": "us_business_onboarding",
+      "journey_name": "US Business Onboarding Journey"
+    },
+    {
+      "journey_token": "J-0123456789abcdefghij",
+      "journey_type": "emea_consumer_onboarding",
+      "journey_name": "EMEA Consumer Onboarding Journey"
+    },
+    {
+      "journey_token": "J-0123456789abcdefghij",
+      "journey_type": "emea_business_onboarding",
+      "journey_name": "EMEA Business Onboarding Journey"
+    },
+    {
+      "journey_token": "J-0123456789abcdefghij",
+      "journey_type": "pii_change",
+      "journey_name": "Prove PII Change Verification Journey"
+    }
+  ],
+  "workflows": [
+    {
+      "workflow_token": "0123456789abcdef0123456789abcdef",
+      "workflow_secret": "0123456789abcdef0123456789abcdef",
+      "workflow_type": "transaction_verification",
+      "workflow_name": "Demo App Financial Transaction Monitoring"
+    }
+  ],
+  "api_credentials": {
+    "workflow_token": "0123456789abcdef0123456789abcdef",
+    "workflow_secret": "0123456789abcdef0123456789abcdef"
+  },
+  "domain": "https://testsomething.com",
+  "customer_slug": "test_customer",
+  "sdk_app_url": "https://alloysdk.alloy.co/",
+  "sdk_api_url": "https://docv.alloy.co"
+}

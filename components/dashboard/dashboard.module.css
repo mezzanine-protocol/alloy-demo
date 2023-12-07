@@ -1,0 +1,9 @@
+.chevronRightIcon {
+  border-radius: var(--cl-radius-3);
+  height: 25px;
+  width: 25px;
+}
+
+.chevronRightIcon:hover {
+  background-color: #f5f5f3;
+}
